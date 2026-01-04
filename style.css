@@ -4,11 +4,13 @@
       box-sizing: border-box;
       font-family: "Segoe UI", Tahoma, sans-serif;
       max-width: 1500px;
+      
     }
 
     body {
       background: #c4e3e9;
       color: #083344;
+      margin: 0 auto;
     }
 
     /* NAVBAR */
@@ -338,11 +340,12 @@
 }
 
 .about-images{
-  position: relative;
-  margin-left: 40px;
+  
 }
 .about-first{
   width: 380px;
+  position: relative;
+  
 }
 
 .about-first img{
@@ -420,6 +423,9 @@
 @media (max-width: 1100px){
   .about{
     flex-direction: column;
+  }
+  .about-images{
+    margin-left: 2px;
   }
 }
 
