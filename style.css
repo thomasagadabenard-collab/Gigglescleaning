@@ -343,7 +343,7 @@
   
 }
 .about-first{
-  width: 380px;
+  width: 100%;
   position: relative;
   
 }
@@ -434,19 +434,19 @@
 .service-section{
   display: flex;
   flex-direction: column;
-  padding: 20px 30px;
+  padding: 1em;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 2em;
   margin: 0 auto;
 }
 
 .service-image-container{
-  width: 400px;
+  width: 90%;
 }
 
 .service-image-container img{
-  width: 90%;
+  width: 100%;
 }
 
 
@@ -498,7 +498,7 @@
 @media (min-width:1100px){
   .service-section{
     flex-direction: row;
-    gap: 40px;
+    gap: 2em;
     justify-content: center;
     align-items: flex-start;
   }
@@ -532,13 +532,13 @@ grid-template-columns: 1fr 1fr;
 gap: 30px;
 align-items: start;
 place-items: center;
-margin: 60px auto;
-padding: 40px;
+margin: 2em auto;
+padding: 2em;
 background: white;
 }
 
 .left-column, .right-column{
-  width: 400px;
+  width: 90%;
 }
 
 .left-column img {
@@ -613,9 +613,12 @@ text-decoration: none;
     }
 }
 
+/*WORK*/
+
 .section-work {
-  padding: 20px 20px 100px;
+  padding: 20px 20px 60px;
   text-align: center;
+  width: 100%;
   max-width: 1200px;
   margin: auto;
 }
@@ -712,10 +715,12 @@ text-decoration: none;
 }
 
 
+/*Gallery*/
 
 .gallery-section {
   position: relative;
   padding: 80px 0 140px;
+  width: 90%;
   max-width: 1400px;
   margin: auto;
 }
@@ -803,6 +808,7 @@ text-decoration: none;
   .cta-box {
     flex-direction: column;
     text-align: center;
+    bottom: 20px;
     gap: 20px;
     padding: 10px 50px;
   
@@ -819,12 +825,14 @@ text-decoration: none;
   }
 
 
-
+/*Pricing*/
   .pricing-section {
       padding: 100px 20px;
       background: #f6fbfd;
       text-align: center;
       font-family: "Segoe UI", Tahoma, sans-serif;
+      width: 100%;
+      max-width: 1400px;
     }
 
     .pricing-section .label {
@@ -952,12 +960,13 @@ text-decoration: none;
       }
     }
 
+/*Contact*/
     .contact{
       background-image: url(images/g4.jpg);
-      height: 100vh;
+      height: auto;
       background-size: cover;
       background-repeat: no-repeat;
-      padding-top: 60px;
+      padding: 60px 30px;
     }
 
     .contact-container{
@@ -1057,14 +1066,18 @@ text-decoration: none;
     }
   }
 
+
+/*Testimonials*/
+
   .testimonials{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 80px 100px;
+    padding: 20px;
+    place-items: center;
   }
 
   .testimonials-words{
-    width: 300px;
+    width: 100%;
     padding: 20px;
     transition: all ease 1s;
   }
@@ -1104,7 +1117,6 @@ text-decoration: none;
 
   .testimonials-image-container{
     width: 50px;
-    /*background: gray;*/
     border-radius: 50%;
   }
 
@@ -1132,7 +1144,7 @@ text-decoration: none;
     .testimonials{
       grid-template-columns: 1fr;
       gap: 20px;
-      margin: 220px auto 20px auto;
+      margin: 20px auto 20px auto;
     }
   }
 
